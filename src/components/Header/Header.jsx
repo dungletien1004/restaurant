@@ -15,10 +15,10 @@ class Header extends React.Component {
                 </li>
               </ul>
                 <div className= "form-logout">
-                  <a href="/" className="logout" onClick={(e) => {
+                  <a href="/restaurant" className="logout" onClick={(e) => {
                                                 if (!window.confirm('Bạn chắc chắn Đăng xuất?')) {
                                                   e.preventDefault();
-                                                  PUBLIC_URL
+                                                  <LoginForm/>
                                                 }
                                             }}>
                         Đăng xuất
