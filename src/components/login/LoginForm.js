@@ -16,11 +16,11 @@ function LoginForm({Login, error}) {
                <h2>Đăng nhập</h2>
                {(error !== "") ? (<div className = "error">{error}</div>): ""}
                 <div className="form-group">
-                   <label htmlFor = "email">Email: </label>
+                   <label htmlFor = "email">Email: (admin@admin.com) </label>
                    <input type = "email" name = "email" id = "email" onChange = {e => setDetails({...details, email: e.target.value})} value = {details.email}/>
                 </div>
                 <div className="form-group">
-                   <label htmlFor = "password">Mật Khẩu: </label>
+                   <label htmlFor = "password">Mật Khẩu: (admin123)</label>
                    <input type = "password" name = "password" id = "password" onChange = {e => setDetails({...details, password: e.target.value})} value = {details.password}/>
                 </div>
                 <input type = "submit" value= "Đăng nhập" />
