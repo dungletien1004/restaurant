@@ -2,7 +2,7 @@ const data = {
     products: [
         {
             id: 1,
-            imgUrl: '/img/hamberB.jpg',
+            imgUrl: 'img/hamberB.jpg',
             dishId: 0,
             UnitPrice: 100000,
             leftQuantity: 12,
