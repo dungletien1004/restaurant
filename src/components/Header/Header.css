@@ -1,0 +1,24 @@
+
+.form-logout{
+  position: relative;
+  display: block;
+  background-image: linear-gradient(to bottom right, #FFCE00, #FE4880);
+  z-index: 2;
+  border-radius: 100px;
+
+}
+.form-logout .logout{
+  display: inline-block;
+  padding: 10px 15px;
+  border-radius: 8px;
+  background-image: linear-gradient(to right, #FFCE00 50%, #FFCE00 50%, #FE4880);
+  background-position: 0%;
+  background-size: 200%;
+  transition: 0.4s;
+  color: #fff;
+  font-weight: 700;
+  cursor: pointer;
+}
+.form-logout .logout:hover{
+  background-position: 100% 0%;
+}

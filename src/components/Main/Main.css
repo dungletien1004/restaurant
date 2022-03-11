@@ -1,0 +1,70 @@
+body {
+  font-family: "Helvetica";
+}
+.blockMain {
+  background-color: #e0e0e0;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  max-width: 70%;
+  padding-left: 50px;
+  flex: 2;
+}
+.blockMain h1,
+.blockMain h2,
+.blockMain h3 {
+  margin: 0.5rem 0;
+}
+.blockMain h1 {
+  font-size: 1.5rem;
+}
+.blockMain h2 {
+  font-size: 1.2rem;
+  margin-right: 1rem;
+}
+.blockMain h3 {
+  font-size: 1rem;
+}
+.blockMain a {
+  text-decoration: none;
+}
+.blockMain .row {
+  display: flex;
+  justify-content: space-between;
+}
+.blockMain .row.center {
+  align-items: center;
+}
+.blockMain .col-1 {
+  flex: 1;
+}
+.blockMain .col-2 {
+  flex: 2;
+}
+
+.blockMain .text-right {
+  text-align: right;
+}
+.blockMain img.small {
+  max-height: 8rem;
+}
+.blockMain button {
+  font-size: 0.8rem;
+  padding: 0.2rem;
+  margin: 0.1rem;
+  border-radius: 0.5rem;
+  border: 0.1rem #404040 solid;
+  background-color: #f0c040;
+  width: 100%;
+  cursor: pointer;
+}
+.blockMain button.badge {
+  background-color: #f04040;
+  border: none;
+  color: #ffffff;
+  width: 1.5rem;
+}
+.blockMain .container {
+  margin: 0;
+  flex: 2;
+}
+

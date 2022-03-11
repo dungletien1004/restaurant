@@ -1,0 +1,89 @@
+/* .food-modal, .food-modal-header {
+    border-top-left-radius: 2%;
+    border-top-right-radius: 2%;
+} */
+
+.food-modal {
+    -webkit-border-radius: 0px !important;
+    -moz-border-radius: 0px !important;
+    border-radius: 0px !important; 
+}
+
+.food-modal {
+    width: 60%;
+    height: 98%;
+    position: absolute;
+    left: 50%;
+    top: 50%; 
+    margin-left: -30%;
+    margin-top: -23%;
+    background-color: white;
+    border-radius: 2% !important;
+    box-shadow: 2px 2px 2px 2px rgb(240, 240, 240);
+}
+
+.food-modal-header{
+    height: 5%;
+    background-color: rgb(240, 240, 240);
+    padding: 10px 15px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+button {
+    font-size: 0.8rem;
+    padding: 0.2rem;
+    margin: 0.1rem;
+    border-radius: 0.5rem;
+    border: 0.1rem #404040 solid;
+    background-color: #f0c040;
+    width: 100%;
+    cursor: pointer;
+  }
+  button.add {
+    background-color: #40c0f0;
+    width: 1.5rem;
+  }
+  button.remove {
+    background-color: #f04040;
+    width: 1.5rem;
+  }
+.btnClose{
+    float: right;
+    text-align: center;
+    transform: translateY(25%);
+}
+
+.col-left, .col-right {
+   color: rgb(122, 122, 122);
+   font-size: 25px;
+
+}
+.title-row{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.modal-image {
+    width: 190px;
+    height: 190px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgb(240, 240, 240);
+}
+.col2{
+    text-align: right;
+}
+.paybtn{
+    display: block;
+    margin: auto;
+    width:70%;
+    font-size: 30px;
+    
+}
+
+.mr-ml-15{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.container .row {
+    margin: 1rem;
+}
