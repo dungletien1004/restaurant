@@ -18,7 +18,7 @@ class Header extends React.Component {
                   <a href="/" className="logout" onClick={(e) => {
                                                 if (!window.confirm('Bạn chắc chắn Đăng xuất?')) {
                                                   e.preventDefault();
-                                                  <LoginForm/>
+                                                  PUBLIC_URL
                                                 }
                                             }}>
                         Đăng xuất
